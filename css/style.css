@@ -1,0 +1,24 @@
+body {
+    background-color: #2d2b2c;
+  }
+    .search-bar {
+        width: 100%;
+        position: relative;
+    }
+    .search-bar input {
+        width: 100%;
+        padding-right: 2.5rem;
+    }
+    .search-bar button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        border: none;
+        background: transparent;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+    .search-bar button .fa-search {
+        color: #aaa;
+    }
